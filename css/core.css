@@ -1,0 +1,15 @@
+.top-box{
+    background-color: #d64c31;
+    color: #ffffff;
+}
+
+article{
+    color: #ffffff;
+    background-color: #4A455C;
+}
+
+.blog-post{
+    display: grid;
+    grid-auto-rows: minmax(50px, auto);
+
+}
