@@ -1,6 +1,12 @@
 .top-box{
     background-color: #d64c31;
     color: #ffffff;
+    width: 500px;
+    max-height: 200px;
+    position:relative;
+    bottom: 130px;
+    float: right;
+    padding: 40px;
 }
 
 article{
@@ -8,8 +14,68 @@ article{
     background-color: #4A455C;
 }
 
+
 .blog-post{
     display: grid;
-    grid-auto-rows: minmax(50px, auto);
-
+    max-width: 900px;
+    grid-template-columns: 1fr 1fr 1fr;
 }
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight:400;
+}
+
+menu{
+    display: inline-block;
+    padding: 14px;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+body{
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+
+.colored-button1{
+    background-color: #d64c31;
+    border:none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+div {
+    width: 25%;
+    height: 50%;
+  }
+
+  img{
+    width: 100%;
+    height: auto;
+  }
