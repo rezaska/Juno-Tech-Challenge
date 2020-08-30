@@ -14,11 +14,10 @@ article{
     background-color: #4A455C;
 }
 
-
 .blog-post{
     display: grid;
     max-width: 900px;
-    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 200px;
 }
 
 p{
@@ -70,12 +69,21 @@ body{
     cursor: pointer;
 }
 
-div {
-    width: 25%;
-    height: 50%;
-  }
-
   img{
     width: 100%;
     height: auto;
+  }
+
+  .uncolored-button{
+    background-color: #ffffff;
+    border:none;
+    border-style: solid;
+    border-color: #d64c31;
+    border-width: thin;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
   }
