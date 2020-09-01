@@ -21,7 +21,7 @@ article{
     margin-top: 200px;
 }
 
-blog-post{
+blog-posts{
     display: flex;
     flex-wrap: wrap;
 }
