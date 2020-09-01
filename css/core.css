@@ -14,6 +14,10 @@ article{
     background-color: #4A455C;
 }
 
+.article-body {
+    padding: 20px;
+}
+
 .blog{
     display: flex;
     flex-direction: row;
