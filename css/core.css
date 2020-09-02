@@ -1,17 +1,36 @@
 .top-box{
     background-color: #d64c31;
     color: #ffffff;
-    width: 500px;
+    width: 650px;
     max-height: 200px;
     position:relative;
     bottom: 130px;
     float: right;
-    padding: 40px;
+    padding-left: 40px;
+    padding-bottom: 60px;
 }
 
 article{
     color: #ffffff;
     background-color: #4A455C;
+}
+
+.nav-logo{
+
+}
+
+.footer-text{
+    max-width: 380px;
+}
+
+section {
+    max-width: 900px; 
+    margin-top: 200px;
+}
+
+.related-article {
+    background-color: #FFFFFF;
+    margin: 10px;
 }
 
 .blog{
@@ -37,10 +56,11 @@ img{
     height: auto;
 }
 
-menu{
+#menu{
     display: inline-block;
     padding: 14px;
     text-decoration: none;
+    padding-top: 10px;
 }
 
 ul{
@@ -65,18 +85,18 @@ body{
     max-width: 900px;
     margin: auto;
     background: white;
+    position: relative;
 }
 
 .colored-button1{
     background-color: #d64c31;
     color: #FFFFFF;
     border:none;
-    padding: 15px 32px;
+    padding: 10px 25px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 4px 2px;
+    font-size: 16px;
+    margin-bottom: 35px;
     cursor: pointer;
 }
 
@@ -86,23 +106,28 @@ body{
     border-style: solid;
     border-color: #d64c31;
     border-width: thin;
-    padding: 15px 32px;
+    padding: 10px 25px;
     text-align: center;
     text-decoration: none;
-    font-size: 18px;
-    margin: 4px 2px;
+    font-size: 16px;
+    margin-bottom: 35px;
     cursor: pointer;
 }
 
-.related-post{
+#related-posts {
     background-color: #FFF0E7;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.related-posts__container {
+    display: flex;         
 }
 
 .footer{
     background-color: #d64c31;
-    padding: 30px 50px 40px;
+    padding: 20px 30px;
     text-align: left;
-    overflow-x: hidden;
 }
 
 .mailing-list{
@@ -149,10 +174,57 @@ input{
 }
 
 .image-responsive{
-    max-width: 20%;
+    max-width: 15%;
     height: auto;
+}
+
+.post-text {
+    padding-left: 20px;
 }
 
 .about-us{
     background-color: #7C7D98;
+}
+
+#social-media a, #footer-menu a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#social-media a {
+    margin-right: 15px;
+}
+
+.blog-article {
+    flex: 1;
+    flex-basis: 50%;
+}
+
+.fab {
+    font-size: 22px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 
+ul li a:hover{
+    box-shadow: 0 9px #999;
+}
+*/
+
+.colored-button1:hover {
+    background-color: #FFFFFF;
+    color: #d64c31;
+}
+
+.colored-button2:hover {
+    background-color: #FFFFFF;
+    color: #d64c31;
+}
+
+.uncolored-button:hover {
+    background-color: #d64c31;
+    color: #FFFFFF;
 }

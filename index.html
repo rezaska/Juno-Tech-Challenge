@@ -11,74 +11,39 @@
 </head>
 
 <body>
-    <style>
-        body {
-            position: relative;
-        }
-
-        #menu {
-            padding-top: 10px;
-        }
-
-        #social-media a, #footer-menu a {
-            display: inline-block;
-            margin-right: 10px;
-        }
-
-        #social-media a {
-            margin-right: 15px;
-        }
-
-        .blog-article {
-            flex: 1;
-            flex-basis: 50%;
-        }
-
-        #related-posts {
-            background-color: #FFF0E7;
-            padding: 25px;
-            margin-top: 30px;
-        }
-
-        .related-posts__container {
-            display: flex;            
-        }
-
-        .fab {
-            font-size: 22px;
-        }
-    </style>
     <div id='menu'>
         <ul>
             <li><img class='nav-logo' src='images/juno-logo.png'></li>
-            <li><a><h5 style="color:#4A455C;">Course</h5></a></li>
-            <li><a><h5 style="color:#4A455C;">About</h5></a></li>
-            <li><a><h5 style="color:#4A455C;">Alumni</h5></a></li>
-            <li><a><h5 style="color:#4A455C;">Blog</h5></a></li>
+            <li><a href="#"><h5 style="color:#4A455C;">Course</h5></a></li>
+            <li><a href="#"><h5 style="color:#4A455C;">About</h5></a></li>
+            <li><a href="#"><h5 style="color:#4A455C;">Alumni</h5></a></li>
+            <li><a href="#"><h5 style="color:#4A455C;">Blog</h5></a></li>
         </ul>
     </div>
     <img class='head-image' src='images/image-1.jpg'>
 
     <div class='top-box'>
         <h1>Tech Challenge</h1>
-        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptate sunt exercitationem, perspiciatis sed, sit nihil at quibusdam itaque deserunt dolorum possimus quod quo dicta quasi pariatur? Repudiandae, delectus quas.</h6>
+        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptate sunt exercitationem, perspiciatis sed, sit nihil at quibusdam itaque deserunt dolorum possimus quod quo dicta quasi pariatur?</h6>
     </div>
 
-    <section style="max-width: 900px; margin-top: 200px;">
+    <section>
         <h2 style="color:#4A455C;">Blog</h2>
         <div style="display: flex; flex-direction: row;">
             <div style="display: flex; flex-wrap: wrap; flex: 3">
                 <article class="blog-article">
                     <img src='images/image-2.jpg'>
-                    <h6 style="color: #FFF0E7">MAR 9, 2019</h6>
-                    <p><h3>Juno Tech Test</h3>
-                    <h6>Volutpat conubia, nec nisl conubia. Integer ut at leo augue euismod aliquam.</h6>
-                    <button class='colored-button1' type='button'>Read more</button>
+                    <div class="post-text">
+                        <h6 style="color: #FFF0E7">MAR 9, 2019</h6>
+                        <h3>Juno Tech Test</h3>
+                        <h6>Volutpat conubia, nec nisl conubia. Integer ut at leo augue euismod aliquam.</h6>
+                        <button class='colored-button1' type='button'>Read more</button>
+                    </div>
                 </article>
                 <article class="blog-article">
                     <img src='images/image-3.jpg'>
-                    <h6 style="color: #FFF0E7">MAR 15, 2019</h6>
-                    <div class='info'>
+                    <div class="post-text">
+                        <h6 style="color: #FFF0E7">MAR 15, 2019</h6>
                         <h3>Juno Tech Test</h3>
                         <h6>Volutpat conubia, nec nisl conubia. Integer ut at leo augue euismod aliquam.</h6>
                         <button class='colored-button1' type='button'>Read more</button>
@@ -86,17 +51,21 @@
                 </article>
                 <article class="blog-article">
                     <img src='images/image-5.jpg'>
-                    <h6>APRIL 30, 2019</h6>
-                    <h3>Juno Tech Test</h3>
-                    <h6>Ac nec nam elit parturient potenti laoreet turpis. Volutpat nullam rhoncus tempus cubilia sagittis scelerisque est ornare accumsan elit semper! Neque interdum sollicitudin curae; torquent fringilla erat habitasse iaculis risus fames. Luctus aptent non cras.</h6>
-                    <button class='colored-button1' type='button'>Read more</button>
+                    <div class="post-text">
+                        <h6>APRIL 30, 2019</h6>
+                        <h3>Juno Tech Test</h3>
+                        <h6>Ac nec nam elit parturient potenti laoreet turpis. Volutpat nullam rhoncus tempus cubilia sagittis scelerisque est ornare accumsan elit semper! Neque interdum sollicitudin curae; torquent fringilla erat habitasse iaculis risus fames. Luctus aptent non cras.</h6>
+                        <button class='colored-button1' type='button'>Read more</button>
+                    </div>
                 </article>
             </div>
             <div style="flex: 2;">
                 <article class='about-us'>
                     <img src='images/image-4.jpg'>
-                    <h3 style="color: #FFF0E7;">About Us</h3>
-                    <h6>Donec sodales dolor, dolor taciti venenatis quis ultricies? Platea tellus, lorem etiam ridiculus dapibus cum montes sit accumsan. Id tincidunt habitant nostra penatibus. Ante euismod tellus interdum urna ante. Fermentum volutpat ut vestibulum convallis semper ultrices ullamcorper ut turpis habitant. Mattis venenatis porttitor senectus est dapibus magna penatibus montes etiam? Platea tincidunt netus posuere platea gravida. Nec augue euismod habitasse curae;! Class ultrices fusce ipsum, eget pellentesque vehicula! Quam consequat.</h6>
+                    <div class="post-text">
+                        <h3 style="color: #FFF0E7;">About Us</h3>
+                        <h6>Donec sodales dolor, dolor taciti venenatis quis ultricies? Platea tellus, lorem etiam ridiculus dapibus cum montes sit accumsan. Id tincidunt habitant nostra penatibus. Ante euismod tellus interdum urna ante. Fermentum volutpat ut vestibulum convallis semper ultrices ullamcorper ut turpis habitant. Mattis venenatis porttitor senectus est dapibus magna penatibus montes etiam? Platea tincidunt netus posuere platea gravida. Nec augue euismod habitasse curae;! Class ultrices fusce ipsum, eget pellentesque vehicula! Quam consequat.</h6>
+                    </div>
                 </article>
             </div>    
         </div>
@@ -107,24 +76,30 @@
         <div class="related-posts__container">
             <article class="related-article">
                 <img src='images/image-2.jpg'>
-                <p>MAR 9, 2019</p>
-                <h3>Juno Tech Test</h3>
-                <h6>Volutpat conubia, nec nisl conubia. Integer ut at leo augue euismod aliquam.</h6>
-                <button class='uncolored-button' type='button'>Read more</button>
+                <div class="post-text">
+                    <h6 style='color:#4A455C';>MAR 9, 2019</h6>
+                    <h3 style='color:#D64C31';>Juno Tech Test</h3>
+                    <h6 style='color:#4A455C';>Volutpat conubia, nec nisl conubia. Integer ut at leo augue euismod aliquam.</h6>
+                    <button class='uncolored-button' type='button'>Read more</button>
+                </div>
             </article>
             <article class="related-article">
                 <img src='images/image-3.jpg'>
-                <p>MAR 15, 2019</p>
-                <h3>Juno Tech Test</h3>
-                <h6>Volutpat conubia, nec nisl conubia. Integer ut at leo augue euismod aliquam.</h6>
-                <button class='uncolored-button' type='button'>Read more</button>
+                <div class="post-text">
+                    <h6 style='color:#4A455C';>MAR 15, 2019</h6>
+                    <h3 style='color:#D64C31';>Juno Tech Test</h3>
+                    <h6 style='color:#4A455C';>Volutpat conubia, nec nisl conubia. Integer ut at leo augue euismod aliquam.</h6>
+                    <button class='uncolored-button' type='button'>Read more</button>
+                </div>
             </article>
             <article class="related-article">
                 <img src='images/image-3.jpg'>
-                <p>MAR 15, 2019</p>
-                <h3>Juno Tech Test</h3>
-                <h6>Volutpat conubia, nec nisl conubia. Integer ut at leo augue euismod aliquam.</h6>
-                <button class='uncolored-button' type='button'>Read more</button>
+                <div class="post-text">
+                    <h6 style='color:#4A455C';>MAR 15, 2019</h6>
+                    <h3 style='color:#D64C31';>Juno Tech Test</h3>
+                    <h6 style='color:#4A455C';>Volutpat conubia, nec nisl conubia. Integer ut at leo augue euismod aliquam.</h6>
+                    <button class='uncolored-button' type='button'>Read more</button>
+                </div>
             </article>
         </div>
     </section>
@@ -132,8 +107,10 @@
     <footer>
         <div class='footer'>
             <img src='/images/Juno-logo-white.png' class="image-responsive">
-            <h4 style="color:#FFFFFF;">Juno Tech Test</h4>
-            <h6 style="color:#FFFFFF;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et.</h6>
+            <div class="footer-text">
+                <h4 style="color:#FFFFFF;">Juno Tech Test</h4>
+                <h6 style="color:#FFFFFF;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et.</h6>
+            </div>
             <div id="footer-menu">
                 <a><h5 style="color:#FFFFFF;">Home</h5></a>
                 <a><h5 style="color:#FFFFFF;">Course</h5></a>
@@ -150,7 +127,7 @@
                 <input value='Your email address'>
                 <button class='colored-button2' type='submit'>Subscribe</button>
             </form>
-            <p style="color:#FFFFFF;">Lorem ipsum dolor sit amet, consectetur adipiscing elit maecenas.</p>
+            <h6 style="color:#FFFFFF;">Lorem ipsum dolor sit amet, consectetur adipiscing elit maecenas.</h6>
             <div id="social-media">
                 <a><i class="fab fa-facebook-f"></i></a>
                 <a><i class="fab fa-twitter"></i></a>
