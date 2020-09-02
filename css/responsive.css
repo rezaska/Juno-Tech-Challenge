@@ -1,13 +1,27 @@
-@media screen and (max-width: 860px) {
-    .mailing-list {
-        position: unset;
-        max-width: none;
+@media screen and (max-width: 767px) {
+    .top-box {
+        float: none;
+        width: auto;
+        padding: 20px;
+        max-height: none;
+        bottom: 0;
     }
-}
 
-@media screen and (max-width: 820px) { 
-    .first-item {
-        margin-right: 0;
+    .blog-container, .related-posts__container, .blog-article first-item, .tech-test-blog {
+        display: block;
+    }
+
+    .about-us {
+        margin: auto;
+    }
+
+    .first-item, #test-two, #test-three {
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    section {
+        margin-top: auto;
     }
 
     #menu > ul > li {
@@ -19,22 +33,9 @@
     }
 }
 
-@media screen and (max-width: 690px) {
-    .top-box {
-        float: none;
-        width: auto;
-        padding: 20px;
-        max-height: none;
-        bottom: 0;
-    }
-}
-
-@media screen and (max-width: 518px) { 
-    .blog-container {
-        display: block;
-    }
-
-    .related-posts__container{
-        display: block; 
+@media screen and (max-width: 860px) {
+    .mailing-list {
+        position: unset;
+        max-width: none;
     }
 }

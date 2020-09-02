@@ -1,4 +1,4 @@
-.top-box{
+.top-box {
     background-color: #d64c31;
     color: #ffffff;
     width: 650px;
@@ -10,7 +10,38 @@
     padding-bottom: 60px;
 }
 
-article{
+#blog {
+    padding: 0 40px;
+}
+
+.medium-size {
+    font-size: 24px;
+}
+
+.mailing-list-text {
+    line-height: 2; 
+    margin-bottom: 25px;
+}
+
+#test-two {
+    margin: 0 10px 10px 10px;
+}
+
+#test-three {
+    margin: 10px 10px 0 0;
+}
+
+.about-section {
+    flex: 1;
+}
+
+.tech-test-blog {
+    display: flex; 
+    flex-wrap: wrap; 
+    flex: 2
+}
+
+article {
     color: #ffffff;
     background-color: #4A455C;
 }
@@ -24,7 +55,7 @@ article{
     max-width: 260px;
 }
 
-.footer-text{
+.footer-text {
     max-width: 380px;
 }
 
@@ -38,30 +69,30 @@ section {
     margin: 10px;
 }
 
-.blog{
+.blog {
     display: flex;
     flex-direction: row;
     max-width: 900px;
     margin-top: 200px;
 }
 
-blog-posts{
+blog-posts {
     display: flex;
     flex-wrap: wrap;
 }
 
-p{
+p {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight:400;
 }
 
-img{
+img {
     width: 100%;
     height: auto;
 }
 
-#menu{
+#menu {
     padding: 14px;
     text-decoration: none;
     padding-top: 35px;
@@ -83,21 +114,21 @@ img{
     color: #4A455C;
 }
   
-li a{
+li a {
     display: inline-block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-body{
+body {
     max-width: 900px;
     margin: auto;
     background: white;
     position: relative;
 }
 
-.colored-button1{
+.colored-button1 {
     background-color: #d64c31;
     color: #FFFFFF;
     border:none;
@@ -109,7 +140,23 @@ body{
     cursor: pointer;
 }
 
-.uncolored-button{
+.colored-button2 {
+    background-color: #FFF0E7;
+    font-family: 'Montserrat', sans-serif;
+    border:none;
+    border-style: solid;
+    border-width: thin;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 1px 2px 10px;
+}
+
+.uncolored-button {
     background-color: #ffffff;
     border:none;
     border-style: solid;
@@ -133,13 +180,13 @@ body{
     display: flex;         
 }
 
-.footer{
+.footer {
     background-color: #d64c31;
     padding: 20px 30px 5px;
     text-align: left;
 }
 
-.mailing-list{
+.mailing-list {
     background-color: #4A455C;
     position: absolute;
     padding: 50px 35px 10px;
@@ -148,28 +195,7 @@ body{
     right: 55px;
 }
 
-.colored-button2{
-    background-color: #FFF0E7;
-    font-family: 'Montserrat', sans-serif;
-    border:none;
-    border-style: solid;
-    border-width: thin;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 14px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 3px;
-    box-shadow: 1px 2px 10px;
-}
-
-#social-media{
-    color: #ffffff;
-
-}
-
-input{
+input {
     height: 35px;
     font-family: 'Montserrat', sans-serif;
     color: #7C7D98;
@@ -177,12 +203,12 @@ input{
     border:none;
 }
 
-.info{
+.info {
     padding: auto;
     justify-content: center;
 }
 
-.image-responsive{
+.image-responsive {
     max-width: 15%;
     height: auto;
 }
@@ -191,20 +217,10 @@ input{
     padding-left: 20px;
 }
 
-.about-us{
+.about-us {
     background-color: #7C7D98;
-}
-
-#social-media a, #footer-menu a {
-    display: inline-block;
-    margin-right: 10px;
-}
-
-#footer-menu {
-    font-size: 18px;
-    color: #FFFFFF;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    margin-left: 10px;
+    padding-bottom: 10px;
 }
 
 .form-control {
@@ -249,18 +265,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* 
-ul li a:hover{
-    box-shadow: 0 9px #999;
-}
-*/
-
-.colored-button1:hover {
-    background-color: #FFFFFF;
-    color: #d64c31;
-}
-
-.colored-button2:hover {
+.colored-button1:hover, .colored-button2:hover {
     background-color: #FFFFFF;
     color: #d64c31;
 }
@@ -268,4 +273,20 @@ ul li a:hover{
 .uncolored-button:hover {
     background-color: #d64c31;
     color: #FFFFFF;
+}
+
+#social-media {
+    color: #ffffff;
+}
+
+#social-media a, #footer-menu a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#footer-menu {
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
